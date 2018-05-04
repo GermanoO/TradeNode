@@ -1,0 +1,24 @@
+{
+  "name": "ativotrade-ws",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "GustavoBarros",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "production": "set NODE_ENV=production && node index.js",
+    "development": "set NODE_ENV=development && node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.2.0",
+    "moment": "^2.21.0",
+    "mysql2": "^1.5.3",
+    "node-uuid": "^1.4.8",
+    "nodemailer": "^4.6.3",
+    "sequelize": "^4.37.4"
+  }
+}
